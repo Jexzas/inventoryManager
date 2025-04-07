@@ -30,12 +30,13 @@ namespace bfm2
 
         public void addAssociatedPart(Part part)
         {
-
+            AssociatedParts.Add(part);
         }
 
         public bool removeAssociatedPart(int id)
         {
-            return false;
+            AssociatedParts.Remove(AssociatedParts[id]);
+            return true;
         }
 
         public Part lookupAssociatedPart(int partID)

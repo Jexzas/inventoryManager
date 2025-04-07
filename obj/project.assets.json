@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\jdrma\\Documents\\c968\\bfm2\\bfm2.csproj",
+      "projectUniqueName": "D:\\Users\\jdrma\\Documents\\inventoryManager\\bfm2.csproj",
       "projectName": "bfm2",
-      "projectPath": "D:\\Users\\jdrma\\Documents\\c968\\bfm2\\bfm2.csproj",
+      "projectPath": "D:\\Users\\jdrma\\Documents\\inventoryManager\\bfm2.csproj",
       "packagesPath": "C:\\Users\\jdrma\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\jdrma\\Documents\\c968\\bfm2\\obj\\",
+      "outputPath": "D:\\Users\\jdrma\\Documents\\inventoryManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

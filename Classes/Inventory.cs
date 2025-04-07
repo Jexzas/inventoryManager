@@ -9,8 +9,8 @@ namespace bfm2
 {
     public class Inventory
     {
-        public BindingList<Product> Products;
-        public BindingList<Part> AllParts;
+        public BindingList<Product> Products { get; set; }
+        public BindingList<Part> AllParts { get; set; }
         public Inventory()
         {
             this.AllParts = new BindingList<Part>() {

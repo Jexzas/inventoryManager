@@ -198,10 +198,10 @@ public partial class Main : Form
         {
             if (inventory.Products[i].ProductID == selectedID)
             {
-                ModifyProduct modifyProduct = new ModifyProduct(inventory.AllParts, inventory.Products[i]);
+                ModifyProduct modifyProduct = new ModifyProduct(inventory.AllParts, inventory.Products[i], inventory);
                 if (modifyProduct.ShowDialog() == DialogResult.OK)
                 {
-                    inventory.updateProduct(selectedID, modifyProduct.products[0]);
+                    inventory.updateProduct(selectedID, modifyProduct.ThisProduct);
                 }
             }
         }

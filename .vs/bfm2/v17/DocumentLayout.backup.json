@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Users\\jdrma\\Documents\\c968\\bfm2\\",
+  "WorkspaceRootPath": "D:\\Users\\jdrma\\Documents\\inventoryManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|d:\\users\\jdrma\\documents\\c968\\bfm2\\classes\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|solutionrelative:classes\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|d:\\users\\jdrma\\documents\\c968\\bfm2\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|solutionrelative:addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|d:\\users\\jdrma\\documents\\c968\\bfm2\\modifyproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|d:\\users\\jdrma\\documents\\inventorymanager\\modifyproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|solutionrelative:modifyproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|d:\\users\\jdrma\\documents\\c968\\bfm2\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|solutionrelative:addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|d:\\users\\jdrma\\documents\\inventorymanager\\classes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|solutionrelative:classes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|d:\\users\\jdrma\\documents\\c968\\bfm2\\modifyproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|d:\\users\\jdrma\\documents\\inventorymanager\\classes\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|solutionrelative:classes\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|D:\\Users\\jdrma\\Documents\\inventoryManager\\modifyproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|solutionrelative:modifyproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|d:\\users\\jdrma\\documents\\inventorymanager\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|d:\\users\\jdrma\\documents\\inventorymanager\\classes\\part.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01832D0F-9302-FF47-861D-9844353152CA}|bfm2.csproj|solutionrelative:classes\\part.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,63 +38,77 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddProduct.cs [Design]",
-              "DocumentMoniker": "D:\\Users\\jdrma\\Documents\\c968\\bfm2\\AddProduct.cs",
-              "RelativeDocumentMoniker": "AddProduct.cs",
-              "ToolTip": "D:\\Users\\jdrma\\Documents\\c968\\bfm2\\AddProduct.cs [Design]",
-              "RelativeToolTip": "AddProduct.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\Users\\jdrma\\Documents\\inventoryManager\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "D:\\Users\\jdrma\\Documents\\inventoryManager\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAiwMsAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T05:10:30.84Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-07T00:47:39.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ModifyProduct.cs",
+              "DocumentMoniker": "D:\\Users\\jdrma\\Documents\\inventoryManager\\ModifyProduct.cs",
+              "RelativeDocumentMoniker": "ModifyProduct.cs",
+              "ToolTip": "D:\\Users\\jdrma\\Documents\\inventoryManager\\ModifyProduct.cs*",
+              "RelativeToolTip": "ModifyProduct.cs*",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAiwKYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T00:32:36.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Users\\jdrma\\Documents\\inventoryManager\\Classes\\Product.cs",
+              "RelativeDocumentMoniker": "Classes\\Product.cs",
+              "ToolTip": "D:\\Users\\jdrma\\Documents\\inventoryManager\\Classes\\Product.cs",
+              "RelativeToolTip": "Classes\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T00:31:47.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Part.cs",
+              "DocumentMoniker": "D:\\Users\\jdrma\\Documents\\inventoryManager\\Classes\\Part.cs",
+              "RelativeDocumentMoniker": "Classes\\Part.cs",
+              "ToolTip": "D:\\Users\\jdrma\\Documents\\inventoryManager\\Classes\\Part.cs",
+              "RelativeToolTip": "Classes\\Part.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T00:31:46.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Inventory.cs",
-              "DocumentMoniker": "D:\\Users\\jdrma\\Documents\\c968\\bfm2\\Classes\\Inventory.cs",
+              "DocumentMoniker": "D:\\Users\\jdrma\\Documents\\inventoryManager\\Classes\\Inventory.cs",
               "RelativeDocumentMoniker": "Classes\\Inventory.cs",
-              "ToolTip": "D:\\Users\\jdrma\\Documents\\c968\\bfm2\\Classes\\Inventory.cs",
+              "ToolTip": "D:\\Users\\jdrma\\Documents\\inventoryManager\\Classes\\Inventory.cs",
               "RelativeToolTip": "Classes\\Inventory.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwFAAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwDUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T05:01:28.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddProduct.cs",
-              "DocumentMoniker": "D:\\Users\\jdrma\\Documents\\c968\\bfm2\\AddProduct.cs",
-              "RelativeDocumentMoniker": "AddProduct.cs",
-              "ToolTip": "D:\\Users\\jdrma\\Documents\\c968\\bfm2\\AddProduct.cs",
-              "RelativeToolTip": "AddProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T04:58:47.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ModifyProduct.cs",
-              "DocumentMoniker": "D:\\Users\\jdrma\\Documents\\c968\\bfm2\\ModifyProduct.cs",
-              "RelativeDocumentMoniker": "ModifyProduct.cs",
-              "ToolTip": "D:\\Users\\jdrma\\Documents\\c968\\bfm2\\ModifyProduct.cs",
-              "RelativeToolTip": "ModifyProduct.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T04:58:43.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ModifyProduct.cs [Design]",
-              "DocumentMoniker": "D:\\Users\\jdrma\\Documents\\c968\\bfm2\\ModifyProduct.cs",
+              "DocumentMoniker": "D:\\Users\\jdrma\\Documents\\inventoryManager\\ModifyProduct.cs",
               "RelativeDocumentMoniker": "ModifyProduct.cs",
-              "ToolTip": "D:\\Users\\jdrma\\Documents\\c968\\bfm2\\ModifyProduct.cs [Design]",
-              "RelativeToolTip": "ModifyProduct.cs [Design]",
+              "ToolTip": "D:\\Users\\jdrma\\Documents\\inventoryManager\\ModifyProduct.cs [Design]*",
+              "RelativeToolTip": "ModifyProduct.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T04:58:41.035Z",
               "EditorCaption": " [Design]"

@@ -15,11 +15,14 @@ namespace bfm2
     {
         private BindingList<Part> availableParts = new BindingList<Part>();
         private BindingList<Part> chosenParts = new BindingList<Part>();
-        public BindingList<Product> products = new BindingList<Product>();
-        public ModifyProduct(BindingList<Part> parts, Product product)
+        public Product ThisProduct;
+        private Inventory ThisInventory { get; set; }
+        public ModifyProduct(BindingList<Part> parts, Product product, Inventory inventory)
         {
             InitializeComponent();
+            this.ThisProduct = product;
             this.chosenParts = product.AssociatedParts;
+            this.ThisInventory = inventory;
             foreach (Part part in parts)
             {
                 bool inChosed = false;
@@ -67,7 +70,7 @@ namespace bfm2
                     if (availableParts[i].PartID == Int32.Parse(dataGridView1.SelectedRows[0].Cells[0].Value.ToString()))
                     {
 
-                        chosenParts.Add(availableParts[i]);
+                        ThisProduct.addAssociatedPart(availableParts[i]);
                         availableParts.Remove(availableParts[i]);
                     }
                 }
@@ -89,7 +92,7 @@ namespace bfm2
                     {
 
                         availableParts.Add(chosenParts[i]);
-                        chosenParts.Remove(chosenParts[i]);
+                        ThisProduct.removeAssociatedPart(i);
                     }
                 }
             }
@@ -109,16 +112,12 @@ namespace bfm2
             }
             else
             {
-                Product newProduct = new Product(
-                chosenParts,
-                (int)numericUpDown1.Value,
-                textBox1.Text,
-                numericUpDown3.Value,
-                (int)numericUpDown2.Value,
-                (int)numericUpDown4.Value,
-                (int)numericUpDown5.Value
-                );
-                products.Add(newProduct);
+                ThisProduct.Name = textBox1.Text;
+                ThisProduct.Price = numericUpDown3.Value;
+                ThisProduct.InStock = (int)numericUpDown2.Value;
+                ThisProduct.Min = (int)numericUpDown4.Value;
+                ThisProduct.Max = (int)numericUpDown5.Value;
+                ThisInventory.updateProduct(ThisProduct.ProductID, ThisProduct);
                 this.DialogResult = DialogResult.OK;
                 this.Close();
             }
@@ -128,6 +127,52 @@ namespace bfm2
         private void button5_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //// functionality to display search results for parts
+            int searchTerm = (int)numericUpDown6.Value;
+            void reset()
+            {
+                numericUpDown6.Value = 0;
+                dataGridView2.DataSource = ThisProduct.AssociatedParts;
+            };
+            if (ThisProduct.AssociatedParts.Count > 0)
+            {
+                foreach (DataGridViewRow row in dataGridView2.SelectedRows)
+                {
+                    row.Selected = false;
+                }
+            }
+            bool found = false;
+            try
+            {
+                ThisProduct.lookupAssociatedPart(searchTerm);
+                if (ThisProduct.AssociatedParts.Count != 0)
+                {
+                    foreach (DataGridViewRow row in dataGridView2.Rows)
+                    {
+                        found = true;
+                        if (row.Cells[0].Value.ToString() == searchTerm.ToString())
+                        {
+                            row.Selected = true;
+                            found = true;
+                            reset();
+                        }
+                        ;
+
+                    }
+                }
+            } catch (Exception)
+            {
+                MessageBox.Show("No associated parts!");
+            }
+            
+            if (found == false)
+            {
+                MessageBox.Show("No parts found!");
+            }
         }
     }
 }

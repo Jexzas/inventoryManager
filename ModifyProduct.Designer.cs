@@ -42,7 +42,6 @@
             numericUpDown4 = new NumericUpDown();
             numericUpDown5 = new NumericUpDown();
             button1 = new Button();
-            textBox2 = new TextBox();
             label8 = new Label();
             dataGridView1 = new DataGridView();
             button2 = new Button();
@@ -51,6 +50,8 @@
             label9 = new Label();
             button4 = new Button();
             button5 = new Button();
+            numericUpDown6 = new NumericUpDown();
+            label10 = new Label();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown3).BeginInit();
@@ -58,6 +59,7 @@
             ((System.ComponentModel.ISupportInitialize)numericUpDown5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown6).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -177,13 +179,7 @@
             button1.TabIndex = 13;
             button1.Text = "Search";
             button1.UseVisualStyleBackColor = true;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(982, 67);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(346, 23);
-            textBox2.TabIndex = 14;
+            button1.Click += button1_Click;
             // 
             // label8
             // 
@@ -259,11 +255,29 @@
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
+            // numericUpDown6
+            // 
+            numericUpDown6.Location = new Point(986, 67);
+            numericUpDown6.Name = "numericUpDown6";
+            numericUpDown6.Size = new Size(346, 23);
+            numericUpDown6.TabIndex = 23;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(1021, 40);
+            label10.Name = "label10";
+            label10.Size = new Size(135, 15);
+            label10.TabIndex = 24;
+            label10.Text = "Associated Part Number";
+            // 
             // ModifyProduct
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1405, 700);
+            Controls.Add(label10);
+            Controls.Add(numericUpDown6);
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(label9);
@@ -272,7 +286,6 @@
             Controls.Add(button2);
             Controls.Add(dataGridView1);
             Controls.Add(label8);
-            Controls.Add(textBox2);
             Controls.Add(button1);
             Controls.Add(numericUpDown5);
             Controls.Add(numericUpDown4);
@@ -297,6 +310,7 @@
             ((System.ComponentModel.ISupportInitialize)numericUpDown5).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown6).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -317,7 +331,6 @@
         private NumericUpDown numericUpDown4;
         private NumericUpDown numericUpDown5;
         private Button button1;
-        private TextBox textBox2;
         private Label label8;
         private DataGridView dataGridView1;
         private Button button2;
@@ -326,5 +339,7 @@
         private Label label9;
         private Button button4;
         private Button button5;
+        private NumericUpDown numericUpDown6;
+        private Label label10;
     }
 }
